@@ -1,0 +1,28 @@
+*{
+    padding: 0; /*configurações para tirar as margens padrão do navegador*/
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 152, 247);
+    padding: 16px;
+    text-align: center;
+}
+
+.galeria{
+    display: columns;
+    columns: 5;
+    padding: 16px;
+    gap: 16px;
+
+}
+
+img{
+    width: 100%;
+    padding-block: 4px;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
